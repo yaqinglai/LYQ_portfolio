@@ -1,17 +1,15 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import Dazz from "./Dazz";
-import Record from "./Record";
-import TeddysLane from "./TeddysLane";
+import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ProjectCard from "./ProjectCard";
 
 export {
   Navbar,
   Hero,
-  Dazz,
-  Record,
-  TeddysLane,
+  Projects,
   Contact,
   Footer,
+  ProjectCard,
 };
