@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../style';
 import { designer } from '../assets';
+import Typed from 'react-typed';
 
 const Hero = () => {
   return (
@@ -9,9 +10,12 @@ const Hero = () => {
         <p className={`${styles.paragraph} ss:text-[32px] text-[22px]`}>
             Hello! I'm
         </p>
-        <h1 className="font-roboto font-semibold ss:text-[98px] text-[82px] text-gradient ss:leading-[150px] leading-[95px] w-full">
-          YaQing Lai
-        </h1>
+        <Typed 
+        strings={['YaQing Lai']} 
+        typeSpeed={120} backSpeed={140} 
+        loop 
+        className="font-roboto font-semibold ss:text-[98px] text-[82px] text-gradient ss:leading-[150px] leading-[95px] w-full"/>
+
         <div className="flex flex-row">
           <h1 className="font-roboto font-normal ss:text-[52px] text-[32px] text-white ss:leading-[100px] leading-[85px] w-full">
             UI / UX Designer

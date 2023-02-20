@@ -4,7 +4,7 @@ import styles from '../style';
 
 const ProjectCard = ({ content, title, img, index}) => {
   return (
-  <div className={`flex flex-row p-10 rounded-[20px] ${index !== project.length - 1 ? "mb-10" : "mb-0"} feature-card cursor-pointer`}>
+  <div className={`flex flex-row p-3 rounded-[20px] ${index !== project.length - 1 ? "mb-10" : "mb-0"} feature-card cursor-pointer`}>
     <div className={`w-[300px] h-[300px] m-10 ${styles.flexCenter}`}>
       <img src={img} alt="vector" className="object-contain" />
     </div>
