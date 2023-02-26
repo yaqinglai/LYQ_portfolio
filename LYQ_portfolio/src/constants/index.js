@@ -1,4 +1,4 @@
-import { dazz, records, teddyslane } from '../assets';
+import { dazz, records, teddyslane, linkedin } from '../assets';
 
 export const navLinks = [
     {
@@ -37,5 +37,13 @@ export const navLinks = [
       content: "Web development for local small business in Malaysia. The website highlights the brand's philosophy and display their products in an organized way. ",
       title: "Teddy's Lane",
       img: teddyslane,
+    },
+  ];
+
+  export const socialMedia = [
+    {
+      id: "social-media-1",
+      icon: linkedin,
+      link: "https://www.linkedin.com/",
     },
   ];

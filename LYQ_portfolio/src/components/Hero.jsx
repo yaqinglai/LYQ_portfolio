@@ -25,6 +25,12 @@ const Hero = () => {
         <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
             Passionate about bridging human-computer interactions as well as human-human interactions through computers
         </p>
+
+        <div className="flex justify-start items-center w-full mt-7">
+          <button type='button' className={`py-4 px-6 font-roboto font-semibold text-[18px] text-white bg-[#879ced] rounded-[10px] outline-none ${styles} hover:bg-[#dec0f1]`}>
+            Download Resume
+          </button>
+        </div>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
 
             <div className="flex justify-center items-center w-full mt-7">
-              <button type='button' className={`py-4 px-6 font-roboto font-semibold text-[18px] text-dimWhite bg-tertiary rounded-[10px] outline-none ${styles} hover:bg-secondary`}>
+              <button type='button' className={`py-4 px-6 font-roboto font-semibold text-[18px] text-dimWhite bg-[#879ced] rounded-[10px] outline-none ${styles} hover:bg-[#dec0f1]`}>
                 Let's talk!
               </button>
             </div>
